@@ -11,6 +11,7 @@
 /  1. Fonts
 /------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&display=swap');
 
 /*------------------------------------------------------
 /  2. Presets & Typography Settings
@@ -22,8 +23,8 @@ html,body{
 body{
     font-family: 'Jost', sans-serif;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 26px;
+    font-size: 1.2rem;
+    line-height: 20px;
     letter-spacing: 0;
     color: #808080;
     padding: 80px 0;
@@ -35,13 +36,14 @@ p{
     margin: 0 0 15px;
 }
 h1, h2, h3, h4, h5, h6{
+    font-family: 'League Spartan', sans-serif;
     font-weight: 600;
     color: #333333;
     line-height: 1.3333;
     margin: 0 0 15px;
 }
 a{
-    color: #7635f5;
+    color: #080a52;
     text-decoration: none;
 
     transition: all ease 300ms;
@@ -87,7 +89,7 @@ input:focus, button:focus, select:focus, textarea:focus, a:focus{
     color: #e64398;
 }
 .primary_color{
-    color: #7635f5;
+    color: #080a52;
 }
 .dark_color{
     color: #1e1e1e;
@@ -107,8 +109,8 @@ input:focus, button:focus, select:focus, textarea:focus, a:focus{
 }
 .sectionTitle:after{
     content: '';
-    width: 40px;
-    height: 4px;
+    width: 60px;
+    height: 6px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -122,7 +124,7 @@ input:focus, button:focus, select:focus, textarea:focus, a:focus{
     font-weight: 600;
     line-height: 50px;
     color: #FFF;
-    background: #7635f5;
+    background: #080a52;
     position: relative;
     overflow: hidden;
     border: none;
@@ -171,7 +173,7 @@ input:focus, button:focus, select:focus, textarea:focus, a:focus{
     -webkit-transition: width .4s cubic-bezier(.25,.8,.25,1) 0s;
 }
 .btt_reverse:after{
-    background: #7635f5;
+    background: #080a52;
 }
 .btt_btn:hover{
     color: #FFF;

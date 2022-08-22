@@ -140,7 +140,7 @@
 .pssbCount {
     font-size: 16px;
     line-height: .8;
-    color: #7635f5;
+    color: #080a52;
     font-weight: 700;
     margin: 0 0 0 0;
     position: absolute;
@@ -274,7 +274,7 @@
     top: 0;
     bottom: 0;
     text-align: center;
-    color: #7635f5;
+    color: #080a52;
     font-size: 40px;
     margin: auto 0;
     height: 40px;
@@ -350,7 +350,7 @@
     top: 0;
     width: 50px;
     height: 50px;
-    background: #7635f5;
+    background: #080a52;
     color: #FFF;
     border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
     font-size: 18px;
@@ -411,7 +411,7 @@
 }
 .icon_box_02:hover{
     border-radius: 2px 2px 10px 10px;
-    border-bottom-color: #7635f5;
+    border-bottom-color: #080a52;
     box-shadow: -3px 2px 21px 4px rgba(32, 30, 41, 1);
 }
 .icon_box_02 .i_div{
@@ -422,7 +422,7 @@
     text-align: center;
     font-size: 25px;
     line-height: 60px;
-    color: #7635f5;
+    color: #080a52;
     margin: 0 0 23px;
     position: relative;
 
@@ -432,7 +432,7 @@
 }
 .icon_box_02:hover .i_div{
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-    background: #7635f5;
+    background: #080a52;
     color: #FFF;
 }
 .icon_box_02 .i_div i{
@@ -449,7 +449,7 @@
     color: inherit;
 }
 .icon_box_02 h3 a:hover{
-    color: #7635f5;
+    color: #080a52;
 }
 .icon_box_02 h5{
     font-size: 12px;
@@ -560,7 +560,7 @@
     display: inline-block;
     width: 4px;
     height: 4px;
-    background: #7635f5;
+    background: #080a52;
     border-radius: 50%;
     position: absolute;
     left: 0;
@@ -593,7 +593,7 @@
     margin-right: 5px;
 }
 .owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover{
-    background: #7635f5
+    background: #080a52
 }
 .testimonialSlider.owl-carousel .owl-nav{
     position: absolute;
@@ -635,7 +635,7 @@
     top: 0;
     width: 50px;
     height: 50px;
-    background: #7635f5;
+    background: #080a52;
     color: #FFF;
     border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
     font-size: 24px;
@@ -670,7 +670,7 @@
     display: block;
     font-size: 55px;
     line-height: .8;
-    color: #7635f5;
+    color: #080a52;
     height: 50px;
     margin: 0 0 30px;
 
@@ -721,7 +721,7 @@
     letter-spacing: 1px;
 }
 .btt_link:hover{
-    color: #7635f5;
+    color: #080a52;
 }
 .btt_link i {
     font-size: 18px;
@@ -758,7 +758,7 @@
     transition: width .3s cubic-bezier(.25,.8,.25,1) 0s;
     -moz-transition: width .3s cubic-bezier(.25,.8,.25,1) 0s;
     -webkit-transition: width .3s cubic-bezier(.25,.8,.25,1) 0s;
-    background: #7635f5;
+    background: #080a52;
 }
 .btt_link:hover span:before {
     width: 100%;
@@ -802,7 +802,7 @@
 }
 .ldInner span:after{
     content: '';
-    background: #7635f5;
+    background: #080a52;
     border-radius: 50%;
     position: absolute;
     left: 0;
@@ -888,7 +888,7 @@
     line-height: inherit;
     letter-spacing: 0px;
     margin-left: auto;
-    color: #7635f5;
+    color: #080a52;
 }
 
 .icon_box_03 {
@@ -1032,7 +1032,7 @@
 }
 .kr-accordion .card-header h2 a.collapsed i{
     border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
-    background: #7635f5;
+    background: #080a52;
 }
 .kr-accordion .card-body{
     padding: 32px 0 0 69px;
@@ -1253,7 +1253,7 @@
     left: 25px;
     width: auto;
     z-index: 2;
-    background: #7635f5;
+    background: #080a52;
     color: #FFF;
     font-size: 12px;
     line-height: 30px;
@@ -1318,13 +1318,13 @@
     margin-bottom: 12px;
 }
 .biDetails .btt_link{
-    color: #7635f5;
+    color: #080a52;
 }
 .biDetails .btt_link:hover{
     color: #ff007f;
 }
 .biDetails .btt_link span:after{
-    background: #7635f5;
+    background: #080a52;
 }
 .biDetails .btt_link span:before{
     background: #ff007f;
@@ -1487,7 +1487,7 @@ textarea{
     margin: 0 0 20px;
     padding: 15px 30px 16px;
     background: #292633;
-    border-left: 5px solid #7635f5;
+    border-left: 5px solid #080a52;
 }
 .pageContent blockquote p {
     font-size: 16px;
@@ -1727,7 +1727,7 @@ textarea{
     margin: 0;
 }
 .clientReview cite{
-    color: #7635f5;
+    color: #080a52;
     font-size: 14px;
     font-weight: 500;
     display: block;
@@ -1864,7 +1864,7 @@ body.SideBarOpend{
     right: 15px;
     top: 17px;
     font-size: 18px;
-    color: #7635f5;
+    color: #080a52;
     transition: all ease 400ms;
     -webkit-transition: all ease 400ms;
     -moz-transition: all ease 400ms;
@@ -1995,5 +1995,5 @@ body.SideBarOpend{
     z-index: 99;
 }
 #backtotop:hover{
-    background: #7635f5;
+    background: #080a52;
 }
