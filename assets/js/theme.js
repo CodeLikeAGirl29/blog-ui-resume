@@ -1,13 +1,3 @@
-/*
- Theme Name: Bittanto
- Theme URI: https://themeforest.net/user/themewar/portfolio
- Author: themewar
- Author URI: 
- Description: Bittanto - Creative Resume HTML5 Responsive Template
- Version: 1.0
- License:
- License URI:
-*/
  /*=======================================================================
  [Table of contents]
  =========================================================================

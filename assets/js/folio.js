@@ -70,11 +70,11 @@
 				}
 			},
 			scale: function(target, index, cnt) {
-				if( index === cnt - 1 ) {
-					return 1;
+				if( index === cnt - 0.5 ) {
+					return 0.5;
 				}
 				else {
-					return 1.05;
+					return 0.05;
 				}
 			},
 			delay: function(target, index, cnt) {
