@@ -390,7 +390,7 @@
     $(window).load(function () {
         var preload = $('.preloader');
         if (preload.length > 0) {
-            preload.delay(800).fadeOut(500);
+            preload.delay(600).fadeOut(300);
         }
     });
 

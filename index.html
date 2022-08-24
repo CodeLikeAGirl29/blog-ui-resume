@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width">
 
     <!-- Start Include All CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/stroke-gap-icons.css" />
     <link rel="stylesheet" href="assets/css/icofont.css" />
@@ -26,6 +26,9 @@
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" />
     <!-- End Include All CSS -->
 
+    <!-- For Bootstrap -->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- Favicon Icon -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <!-- Favicon Icon -->
@@ -34,23 +37,21 @@
 
     <!-- Preloader Start -->
     <div class="preloader">
-        <div class="preloader-inner">
-            <div class="preloader-box">
-                <div class="letter">L</div>
-                <div class="letter">O</div>
-                <div class="letter">A</div>
-                <div class="letter">D</div>
-                <div class="letter">I</div>
-                <div class="letter">N</div>
-                <div class="letter">G</div>
+        <div class="preloader-inner">         
+                <div class="letter"></div>
+                <div class="letter"></div>
+                <div class="letter"></div>
+                <div class="letter"></div>
+                <div class="letter"></div>
+                <div class="letter"></div>
+                <div class="loader--text"></div>
             </div>
         </div>
-    </div>
     <!-- Preloader End -->
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 profileColumn">
+            <div class="col-lg-3 profileColumn">
                 <div class="profileSidebar">
                     <div class="psHeader">
                         <svg preserveAspectRatio="none" viewBox="0 0 100 100">
@@ -128,8 +129,8 @@
                     <a href="javascript:void(0);" class="widget_closer"><i class="icofont-close-line"></i></a>
                     <div class="widget widget-search">
                         <h3 class="widget_title">Search</h3>
-                        <form method="post" action="#" class="search_form">
-                            <input type="text" name="s" placeholder="Search..">
+                        <form id="form" role="search">
+                            <input type="search" name="q" placeholder="Search.." id="query" aria-label="Search through site content">
                             <button type="submit"><i class="icon icon-Search"></i></button>
                         </form>
                     </div>
