@@ -19,7 +19,7 @@
 [class^="icofont-"], [class*=" icofont-"]
 {
     font-family: 'IcoFont' !important;
-    speak: none;
+    /* speak: none; */
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -29,7 +29,7 @@
     direction: ltr;
     line-height: inherit;
     /* Better Font Rendering =========== */
-    -webkit-font-feature-settings: "liga";
+    /* -webkit-font-feature-settings: "liga"; */
     -webkit-font-smoothing: antialiased;
 }
 
@@ -10676,42 +10676,42 @@
 
 .icofont-rotate-90
 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)"; */
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
 .icofont-rotate-180
 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; */
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
 .icofont-rotate-270
 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)"; */
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
 }
 
 .icofont-flip-horizontal
 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)"; */
     -webkit-transform: scale(-1, 1);
     transform: scale(-1, 1);
 }
 
 .icofont-flip-vertical
 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)"; */
     -webkit-transform: scale(1, -1);
     transform: scale(1, -1);
 }
 
 .icofont-flip-horizontal.icofont-flip-vertical
 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)"; */
     -webkit-transform: scale(-1, -1);
     transform: scale(-1, -1);
 }
