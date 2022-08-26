@@ -83,7 +83,7 @@
 	}
 	.menu_btn:hover,
 	.menu_btn.active {
-		background: #01d85f;
+		background: rgba(255, 148, 112, 1);
 		color: #fff;
 	}
 	.mainMenu {
@@ -260,7 +260,7 @@
 		color: #808080;
 	}
 	.widget_closer:hover {
-		color: #01d85f;
-		border-color: #01d85f;
+		color: rgba(255, 148, 112, 1);
+		border-color: rgba(255, 148, 112, 1);
 	}
 }
