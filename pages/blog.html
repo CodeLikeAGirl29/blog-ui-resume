@@ -7,22 +7,22 @@
 
     <!-- Start Include All CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/stroke-gap-icons.css" />
-    <link rel="stylesheet" href="assets/css/icofont.css" />
-    <link rel="stylesheet" href="assets/css/icofont.min.css" />
-    <link rel="stylesheet" href="assets/css/flaticon.css" />
-    <link rel="stylesheet" href="assets/css/Interest.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/lightslider.css">
-    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href=".../assets/css/animate.css" />
+    <link rel="stylesheet" href="../assets/css/stroke-gap-icons.css" />
+    <link rel="stylesheet" href="../assets/css/icofont.css" />
+    <link rel="stylesheet" href="../assets/css/icofont.min.css" />
+    <link rel="stylesheet" href="../assets/css/flaticon.css" />
+    <link rel="stylesheet" href="../assets/css/Interest.css">
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../assets/css/lightslider.css">
+    <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.css">
 
-    <link rel="stylesheet" href="assets/css/preset.css" />
-    <link rel="stylesheet" href="assets/css/ignore_for_wp.css" />
-    <link rel="stylesheet" href="assets/css/theme.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-    <link rel="stylesheet" href="assets/css/light.css" />
+    <link rel="stylesheet" href="../assets/css/preset.css" />
+    <link rel="stylesheet" href="../assets/css/ignore_for_wp.css" />
+    <link rel="stylesheet" href="../assets/css/theme.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+    <link rel="stylesheet" href="../assets/css/light.css" />
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" />
     <!-- End Include All CSS -->
 
@@ -31,6 +31,8 @@
     <!-- Favicon Icon -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <!-- Favicon Icon -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 <body class="light">
 
@@ -326,5 +328,14 @@
 
     <script src="assets/js/theme.js"></script>
     <!-- End Include All JS -->
+    <script>
+        $(window).on('load',function(){
+            $(".preloader").fadeOut(1000);
+            $(".preloader-inner").fadeOut(1000);
+            $(".letter").fadeOut(1000);
+            $(".loader--text").fadeOut(1000);
+            $(".container").fadeIn(2000);
+        });
+    </script>
 </body>
 </html>

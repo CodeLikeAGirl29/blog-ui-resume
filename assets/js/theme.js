@@ -395,3 +395,15 @@
     });
 
 })(jQuery);
+
+  /*--------------------------------------------------------
+    / 12. Education Accordian
+    /---------------------------------------------------------*/
+
+const accordion = document.getElementsByClassName('kr-accordian');
+
+for (i=0; i<accordion.length; i++) {
+  accordion[i].addEventListener('click', function () {
+    this.classList.toggle('active')
+  })
+}

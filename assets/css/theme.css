@@ -996,6 +996,14 @@
 	padding: 17px 0;
 }
 
+.accordion .label {
+  position: relative;
+  padding: 10px 0;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+}
+
 .kr-accordion .card {
 	border: none;
 	border-radius: 0;

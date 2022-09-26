@@ -32,6 +32,7 @@
     <!-- Favicon Icon -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <!-- Favicon Icon -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body class="light">
 
@@ -66,7 +67,7 @@
                         </div>
                     </div>
                     <div class="psPhoto">
-                        <img src="https://res.cloudinary.com/codelikeagirl29/image/upload/v1661125620/IMG_20220420_205412_ref6pp.jpg"
+                        <img src="https://res.cloudinary.com/codelikeagirl29/image/upload/v1649105177/Temp-550x650_waai2v.png"
                             alt="" />
                         <div class="psSocial">
                             <a href="https://facebook.com/codelikeagirl91" target="_blank" class="fac"><i
@@ -630,5 +631,14 @@
 
     <script src="assets/js/theme.js"></script>
     <!-- End Include All JS -->
+    <script>
+        $(window).on('load',function(){
+            $(".preloader").fadeOut(1000);
+            $(".preloader-inner").fadeOut(1000);
+            $(".letter").fadeOut(1000);
+            $(".loader--text").fadeOut(1000);
+            $(".container").fadeIn(2000);
+        });
+    </script>
 </body>
 </html>
