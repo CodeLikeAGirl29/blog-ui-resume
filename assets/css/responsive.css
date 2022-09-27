@@ -42,6 +42,15 @@
 		line-height: 28px;
 		display: inline-block;
 	}
+
+	.card-header::before {
+		content: '+';
+		transform: translateY(-50%);
+		position: absolute;
+		top: 50%;
+		right: -5%;
+	}
+
 	.ac_meta span {
 		margin-bottom: 5px;
 	}
